@@ -63,7 +63,7 @@ public class UserService {
             .build();
     }
 
-    @PreAuthorize("hasRole('ADMIN')")
+    // @PreAuthorize("hasRole('ADMIN')")
     public List<UserResponse> getUsers() {
         return userRepository.findAll().stream()
             .map(user -> UserResponse.builder()
