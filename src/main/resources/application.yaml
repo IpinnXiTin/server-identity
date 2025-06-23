@@ -8,6 +8,7 @@ spring:
         url: jdbc:mysql://root:FfeYWCrJVRYgmHLqqaeipVMzLSizZUfu@mysql.railway.internal:3306/railway
         username: root
         password: FfeYWCrJVRYgmHLqqaeipVMzLSizZUfu
+        driver-class-name: com.mysql.cj.jdbc.Driver
 
     jpa:
         hibernate:
